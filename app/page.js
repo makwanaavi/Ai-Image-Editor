@@ -8,7 +8,6 @@ export default function Home() {
     <div>
       <div>
         <br />
-        <Button variant="glass">Hello </Button>
       </div>
     </div>
   );
