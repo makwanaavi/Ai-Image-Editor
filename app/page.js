@@ -1,14 +1,19 @@
 
+"use client"
+import * as React from "react"
+import { Moon, Sun } from "lucide-react"
+import { useTheme } from "next-themes"
 import { Button } from ".././components/ui/button"
 
+
 export default function Home() {
+  const { setTheme } = useTheme()
   return (
     <div>
-       <div className="flex flex-wrap items-center gap-2 md:flex-row bg-black">
-      <br />
-      <Button variant="primary">Button</Button>
-      <Button variant="glass">Button</Button>
-    </div>
+      <div>
+        <br />
+      <Button variant="glass">Hello </Button>
+      </div>
     </div>
   );
 }
