@@ -57,10 +57,10 @@ const Header = () => {
                     </SignedOut>
                     <SignedIn>
                         <UserButton appearance={{
-                            elements : {
-                                avatarBox : "w-8 h-8"
+                            elements: {
+                                avatarBox: "w-8 h-8"
                             }
-                        }}/>
+                        }} />
                     </SignedIn>
                 </div>
             </div>
